@@ -7,7 +7,7 @@ function isEven(num) {
 function checkEven() {
     const num = document.getElementById('numberInput').value; // Get the value from the input
     if (num === "") {
-        document.getElementById('result').innerText = "Please enter a number"; // Handle empty input
+        document.getElementById('result').innerText = "Please enter a number"; // Handle empty input and ensure a value is entered
         return;
     }
     
