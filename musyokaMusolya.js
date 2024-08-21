@@ -11,6 +11,6 @@ function checkEven() {
         return;
     }
     
-    const resultText = isEven(parseInt(num)) ? `True ${num} is even` : `False ${num} is odd`; // Determine even or odd
+    const resultText = isEven(parseInt(num)) ? `True ${num} is Even` : `False ${num} is Odd`; // Determine even or odd
     document.getElementById('result').innerText = resultText; // Display result in the <p> tag
 }
